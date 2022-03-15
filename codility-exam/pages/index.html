@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<style>
+		body {
+			background: #ffffff;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+  	<div id="demo"></div>
+
+	<script type="module">
+		import { html, render } from 'lit';
+		import '../codility-exam.js';
+
+		render(
+			html`
+				<codility-exam />
+			`,
+			document.querySelector('#demo')
+		);
+	</script>
+</body>
+</html>
